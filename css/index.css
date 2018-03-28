@@ -12,6 +12,19 @@
     height: 100%;
     background: aquamarine;
 }
+.box1 span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-left: 2px solid #f00;
+    border-top: 2px solid #f00;
+    transform: rotate(-45deg);
+    margin: 100px;
+    transition: all .5s;
+}
+.box .sp{
+    transform: rotate(-135deg);
+}
 .box2{
     width: 50%;
     height: 100%;
