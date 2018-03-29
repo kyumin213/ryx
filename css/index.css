@@ -21,9 +21,17 @@
     transform: rotate(-45deg);
     margin: 100px;
     transition: all .5s;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    -o-transition: all .5s;
+    -ms-transition:all .5s;
 }
 .box .sp{
     transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
 }
 .box2{
     width: 50%;
