@@ -7,6 +7,8 @@ $(function () {
         $lis = $('.nav-item li'),
         $teams = $('.team-item li'),
         $about = $('.about-item>li');
+    $('.panel:not(:first)').hide();
+    $('.posint-itemts:first').addClass('on');
     length = $('.panel').length;
     //轮播图
     $('.panel,.slider-pre,.slider-next').hover(function () {
@@ -32,6 +34,7 @@ $(function () {
     $('.slider-pre').click(function () {
         pre();
     });
+
     function pre() {
         var preIndex = currentIndex;
         currentIndex = --currentIndex % length;
@@ -39,7 +42,7 @@ $(function () {
     }
 
     function play(preIndex, currentIndex) {
-        $('.panel').eq(preIndex).fadeOut(500) .parent().children().eq(currentIndex).fadeIn(1000);
+        $('.panel').eq(preIndex).fadeOut(500).parent().children().eq(currentIndex).fadeIn(1000);
         $('.posint-itemts').eq(currentIndex).addClass('on').siblings().removeClass('on');
     }
 
@@ -48,7 +51,6 @@ $(function () {
         currentIndex = ++currentIndex % length;
         play(preIndex, currentIndex);
     }
-
 
 
     function start() {
@@ -76,11 +78,11 @@ $(function () {
     });
     //优势
     $('.team-item>li').hover(function () {
-        if($('li').hasClass('active')){
+        if ($('li').hasClass('active')) {
             $('li').removeClass('active')
         }
         $(this).toggleClass('active');
-});
+    });
 
 //    关于我们tab
     $about.click(function () {
