@@ -1,0 +1,179 @@
+.container{
+    width: 100%;
+    margin-top: 40px;
+    height: 610px;
+    background: #fff;
+}
+.about-banner img{
+    width: 100%;
+    background-size: cover;
+}
+.container .con{
+    position: relative;
+}
+.container .con .left .about-item,.container .con .left .contact-item{
+    list-style: none;
+    width: 225px;
+}
+.container .con .left .about-item li{
+    height: 48px;
+    padding-left: 20px;
+    line-height: 48px;
+    border:1px solid #E8E8E8;
+    border-top: none;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+}
+.container .con .left .about-item li:nth-child(1){
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #D9B564;
+    color: #fff;
+    font-size: 12px;
+}
+.container .con .left .about-item .ab{
+    font-size: 20px;
+    height: 20px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+.container .con .left .about-item .items {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -4px;
+}
+.container .con .left .about-item .active{
+    color: #D9B564;
+}
+.container .con .left .about-item .act{
+    border-top: 1px solid #D9B564;
+    border-right: 1px solid #D9B564;
+}
+
+.container .con .left .contact-item{
+    margin-top: 40px;
+}
+.container .con .left .contact-item li{
+    border:1px solid #E8E8E8;
+    border-top: none;
+    color: #000;
+}
+.container .con .left .contact-item li:nth-child(1){
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    height: 70px;
+    background-color: #5F5F5F;
+    line-height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 20px;
+    position: relative;
+}
+.container .con .left .lxwm{
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -10px;
+    opacity: .8;
+}
+.container .con .left .lxwm:after{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    right:8px;
+    top: 50%;
+    margin-top: -4px;
+    opacity: .8;
+
+}
+.container .con .left .contact-item li:nth-child(2),
+.container .con .left .contact-item li:nth-child(3){
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+.container .con .left .contact-item .call{
+    display: inline-block;
+    font-size: 16px;
+    color: #D9B564;
+    padding-bottom: 15px;
+}
+.container .con .right{
+    margin-left: 40px;
+    border: 1px solid #E8E8E8;
+    position: absolute;
+    left: 220px;
+    top: 0;
+    height: 560px;
+    overflow: hidden;
+}
+.container .con .right .right-items{
+    width: auto;
+    height: 100%;
+}
+.container .con .right .show-content{
+    padding: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.container .con .right .show-content p{
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+.container .con .right .show-content p:nth-child(1){
+    text-indent: 2em;
+}
+.container .con .right .right-title{
+    height: 70px;
+    background-color: #FAFAFA;
+    padding-left: 20px;
+    position: relative;
+    border-bottom: 1px solid #E8E8E8;
+}
+.container .con .right  h4{
+    height: 70px;
+    line-height: 70px;
+    color: #D9B564;
+}
+.container .con .right .right-title p{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    font-size: 13px;
+    top: 25px;
+    color: #999;
+}
+.container .con .right .right-title .gsjj{
+    color: #D9B564;
+}
