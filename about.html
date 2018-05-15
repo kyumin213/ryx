@@ -22,12 +22,45 @@
         </div>
         <div class="nav-right">
             <ul class="nav-item">
-                <li><a href="index.html">首页</a></li>
-                <li class="act"><a href="#">关于我们</a></li>
-                <li><a href="#">新闻资讯</a></li>
-                <li><a href="#">产品服务</a></li>
-                <li><a href="#">下载</a></li>
-                <li><a href="#">联系我们</a></li>
+                <li class="items"><a href="index.html" class="nav-a">首页</a></li>
+                <li class="items actives"><a href="about.html" class="nav-a ons">关于我们</a>
+                    <ul class="about_us disno">
+                        <li><a href="about.html">公司简介</a></li>
+                        <li><a href="about.html">公司文化</a></li>
+                        <li><a href="about.html">公司资质</a></li>
+                        <li><a href="about.html">公司历程</a></li>
+                    </ul>
+                </li>
+                <li class="items"><a href="newsInfo.html" class="nav-a">新闻资讯</a>
+                    <ul class="about_us disno">
+                        <li><a href="newsInfo.html">公司新闻</a></li>
+                        <li><a href="newsInfo.html">行业动态</a></li>
+                    </ul>
+                </li>
+                <li class="items"><a href="productService.html" class="nav-a">产品服务</a>
+                    <ul class="about_us disno product_service">
+                        <li><a href="productService.html">线上商城</a></li>
+                        <li><a href="productService.html">特色小镇</a></li>
+                        <li><a href="productService.html">新能源产业基地</a></li>
+                        <li><a href="productService.html">个性化旅游定制</a></li>
+                        <li><a href="productService.html">汽车产业链</a></li>
+                    </ul>
+                </li>
+                <li class="items"><a href="join.html" class="nav-a">加盟</a>
+                    <ul class="about_us disno jm">
+                        <li><a href="join.html">合伙人加盟</a></li>
+                        <li><a href="join.html">渠道商加盟</a></li>
+                        <li><a href="join.html">分公司加盟</a></li>
+
+                    </ul>
+                </li>
+                <li class="items"><a href="contact.html" class="nav-a">联系我们</a>
+                    <ul class="about_us disno hhr">
+                        <li><a href="contact.html">联系我们</a></li>
+                        <li><a href="contact.html">人才招聘</a></li>
+                        <li><a href="contact.html">留言板</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>
@@ -38,15 +71,21 @@
 <div class="container">
     <div class="con wid">
         <div class="left">
+            <div class="ab">
+                <div>
+                    <h5 class=us>关于我们</h5>
+                    <span class="des">ABOUT</span>
+                </div>
+                <div><span class="lxwm"></span></div>
+            </div>
             <ul class="about-item">
-                <li><h5 class="ab">关于我们</h5>ABOUT<span class="lxwm"></span></li>
                 <li class="active">公司简介<span class="items act"></span></li>
                 <li>公司文化<span class="items"></span></li>
-                <li>公司资质<span class="items"></span></li>
-                <li>新闻资讯<span class="items"></span></li>
+                <li>品牌释义<span class="items"></span></li>
+                <!--<li>发展历程<span class="items"></span></li>-->
             </ul>
             <ul class="contact-item">
-                <li>联系我们<span class="lxwm"></span></li>
+                <li class="disbox">联系我们<span class="lxwm"></span></li>
                 <li>了解更多我们的详细信息，请致电<span class="call">0755-28210820</span></li>
                 <!--<li>0755-28210820</li>-->
                 <li>或给我们邮箱留言<span class="call">ryh@rongyixing.com.cn</span></li>
@@ -54,66 +93,80 @@
             </ul>
         </div>
         <div class="right">
-            <div class="right-items">
+            <div class="right-items bri">
                 <div class="right-title">
                     <h4>品牌介绍</h4>
-                    <p>你的位置：首页&gt;关于我们&gt;<span class="gsjj">公司简介</span></p>
+                    <p>你的位置：首页&gt;关于我们&gt;<span class="gsjj">品牌介绍</span></p>
                 </div>
                 <div class="show-content">
-                    <p>“融益行”是深圳市中普理想集团旗下的新型消费共享生态平台，以新零售和新能源为基础依托于互联网大数据运营及全新的F2C2F的模式，致力于消费增值，助农增收，产销结合，生态环保的惠民工程。</p>
-                    <p>集团积极推进供应链改革创新，立足深圳面向全国，已在零售领域深耕细作20多年，拥有多家进口优品连锁门店、多家国内外知名品牌供应链源头、拥有政府支持的新能源实体产业。</p>
+                    <p><strong>深圳中普理想科技有限公司前身：</strong>从1998年开始致力于源头产品供应链，品类有：日用品、食品、进口产品、护肤品、家居用品、小家电等；合作知名品牌有：蓝月亮、云南白药、
+                        宝宝金水、田七、两面针、劳工、斧头、小浣熊、晨露、帮洁、枪手等上百个厂家；与上千家商超门店合作，合作的连锁店系统有：沃尔玛、人人乐、大润发、华润万家、佳华、
+                        国惠康、岁宝、天虹、家乐福等；经过20年的精耕细作，在行业内已成为佼佼者。随着互联网的发展和消费模式的改变，让传统厂家和企业不得不进行转型。
+                        在这样的大环境下融益行顺势而生，为振兴实体经济和民族品牌为使命！</p>
+                    <p><strong>深圳中普理想科技有限公司旗下品牌：融益行</strong>是一个融合了F2C、C2F、OMO等多种商业模式的互联网线上线下消费升级 新零售 ·
+                        产业共享生态圈。在国家“互联网+”以及两会“振兴实体经济”的伟大
+                        战略背景下，以创新的消费积分奖励商业模式，让消费者“能消费、愿消费、敢消费”，同时倡导优质、高端、节能、健康的消费理念。对供应端来说，
+                        融益行为各类品牌制造商、代理商们提供一个打响品牌、促进销售的新资源、新流量平台。并且联合各类商业系统，打造一个互联互通异业联盟的去中心化会员消费升级生态圈，共享庞大而又具有粘性的会员消费群体。
+                        立志于为全球消费者、商家、企业搭建具有持续创新、惠泽于民、异业联盟的合作性、共生性的全球消费生态圈。</p>
                     <p>
-                        “融益行”响应国家“大众创业、万众创新”的号召，配合国家供给侧改革的步伐、结合新型城镇化的创新发展模式、联合全国各地的特色小镇、汽车产业供应链、绿色农产品供应链，发展特色县域经济，打通民生刚需产品与会员之间的绿色通道，为会员与合伙人提供创业创富的渠道，享受全球品质定制生活，构建共赢共富的新型消费生态圈。</p>
-                </div>
-            </div>
-            <div class="right-items">
-                <div class="right-title">
-                    <h4>品牌介绍</h4>
-                    <p>你的位置：首页&gt;关于我们&gt;<span class="gsjj">公司简介</span></p>
-                </div>
-                <div class="show-content">
-                    <p>“融益行”是深圳市中普理想集团旗下的新型消费共享生态平台，以新零售和新能源为基础依托于互联网大数据运营及全新的F2C2F的模式，致力于消费增值，助农增收，产销结合，生态环保的惠民工程。</p>
-                    <p>集团积极推进供应链改革创新，立足深圳面向全国，已在零售领域深耕细作20多年，拥有多家进口优品连锁门店、多家国内外知名品牌供应链源头、拥有政府支持的新能源实体产业。</p>
-                    <p>
-                        “融益行”响应国家“大众创业、万众创新”的号召，配合国家供给侧改革的步伐、结合新型城镇化的创新发展模式、联合全国各地的特色小镇、汽车产业供应链、绿色农产品供应链，发展特色县域经济，打通民生刚需产品与会员之间的绿色通道，为会员与合伙人提供创业创富的渠道，享受全球品质定制生活，构建共赢共富的新型消费生态圈。</p>
+                        <strong>深圳中普理想科技有限公司</strong>成立于2016年，虽然我们年轻，但我们更加富有激情，勇于创新和拼搏。我们倡导互利、共生、增值、循环、再生的消费理念;鼓励创业，助力创新，乐于合作;我们坚信定能融和天下之人事，
+                        益惠于民的互联网线上线下新零售·产业共享生态圈。
+                    </p>
+                    <p><strong>深圳中普理想科技有限公司</strong>，位于深圳龙岗坂田星河WORLD产业CBD，距深圳北站2公里，是深圳是政府重点打造的深圳后花园高端商务核心商圈，运筹高端时尚商务，便利人们的高端时尚生活。我们有一个“线上商超+进口社区店”布局的“融益购”，
+                        我们致力于为社区为会员服务出发，努力打造“融益购”线下进口商超品牌并发展成为全国知名的新零售·进口产品社区连锁品牌。</p>
+                    <p><strong>融益行</strong>秉承着“让生活更美好”的企业理念，通过持续的优化与发展，致力成为引领大众消费新方式、改善大众生活品质的卓越OMO新零售连锁品牌。</p>
+                    <p><strong>融益行</strong>作为有梦想、有责任、有信念、有担当的“四有”企业公民，携手合作伙伴、客户，会员，惠泽于众人，为实现远大梦想而奋斗不息，为振兴实体经济、民族品牌助力。
+                    </p>
                 </div>
             </div>
             <div class="right-items">
                 <div class="right-title">
                     <h4>公司文化</h4>
-                    <p>你的位置：首页&gt;关于我们&gt;<span class="gsjj">公司简介</span></p>
+                    <p>你的位置：首页&gt;关于我们&gt;<span class="gsjj">公司文化</span></p>
                 </div>
-                <div class="show-content">
-                    <p>“融益行”是深圳市中普理想集团旗下的新型消费共享生态平台，以新零售和新能源为基础依托于互联网大数据运营及全新的F2C2F的模式，致力于消费增值，助农增收，产销结合，生态环保的惠民工程。</p>
-                    <p>集团积极推进供应链改革创新，立足深圳面向全国，已在零售领域深耕细作20多年，拥有多家进口优品连锁门店、多家国内外知名品牌供应链源头、拥有政府支持的新能源实体产业。</p>
-                    <p>
-                        “融益行”响应国家“大众创业、万众创新”的号召，配合国家供给侧改革的步伐、结合新型城镇化的创新发展模式、联合全国各地的特色小镇、汽车产业供应链、绿色农产品供应链，发展特色县域经济，打通民生刚需产品与会员之间的绿色通道，为会员与合伙人提供创业创富的渠道，享受全球品质定制生活，构建共赢共富的新型消费生态圈。</p>
-                </div>
-            </div>
-            <div class="right-items">
-                <div class="right-title">
-                    <h4>公司资质</h4>
-                    <p>你的位置：首页&gt;关于我们&gt;<span class="gsjj">公司简介</span></p>
-                </div>
-                <div class="show-content">
-                    <p>“融益行”是深圳市中普理想集团旗下的新型消费共享生态平台，以新零售和新能源为基础依托于互联网大数据运营及全新的F2C2F的模式，致力于消费增值，助农增收，产销结合，生态环保的惠民工程。</p>
-                    <p>集团积极推进供应链改革创新，立足深圳面向全国，已在零售领域深耕细作20多年，拥有多家进口优品连锁门店、多家国内外知名品牌供应链源头、拥有政府支持的新能源实体产业。</p>
-                    <p>
-                        “融益行”响应国家“大众创业、万众创新”的号召，配合国家供给侧改革的步伐、结合新型城镇化的创新发展模式、联合全国各地的特色小镇、汽车产业供应链、绿色农产品供应链，发展特色县域经济，打通民生刚需产品与会员之间的绿色通道，为会员与合伙人提供创业创富的渠道，享受全球品质定制生活，构建共赢共富的新型消费生态圈。</p>
+                <div class="show-content wh">
+                    <strong>一 核心价值观</strong>
+                    <p>以人为本，创优质服务，让同事满意，让客户满意，让合作伙伴满意。</p>
+                    <strong>二 企业精神</strong>
+                    <p>勤奋好学，正直守信，团结协作，敬业拼搏，务实创新。</p>
+                    <strong>三 工作作风</strong>
+                    <p>敢于梦想，勇于创新，勤于拼搏;迅速反应，马上行动，及时反馈。</p>
+                    <strong>四 管理理念</strong>
+                    <p>简洁，集约，在一线沟通中就解决问题，让沟通成为令人愉快的事情。</p>
+                    <strong>五 人才战略</strong>
+                    <p>人才是企业发展的源动力，是企业创新的源泉，是企业生命体的心脏。</p>
+                    <strong>六 企业愿景</strong>
+                    <p>和天下之人，和天下之事，创互联网线上线下(OMO)新零售连锁品牌，携同伴成就梦想，助客户梦想腾飞，为祖国强大助力。</p>
+                    <strong>七 服务理念</strong>
+                    <p>用专业说话，用效率取悦，用差异化取胜。</p>
                 </div>
             </div>
             <div class="right-items">
                 <div class="right-title">
-                    <h4>新闻资讯</h4>
-                    <p>你的位置：首页&gt;关于我们&gt;<span class="gsjj">公司简介</span></p>
+                    <h4>品牌释义</h4>
+                    <p>你的位置：首页&gt;关于我们&gt;<span class="gsjj">品牌释义</span></p>
                 </div>
                 <div class="show-content">
-                    <p>“融益行”是深圳市中普理想集团旗下的新型消费共享生态平台，以新零售和新能源为基础依托于互联网大数据运营及全新的F2C2F的模式，致力于消费增值，助农增收，产销结合，生态环保的惠民工程。</p>
-                    <p>集团积极推进供应链改革创新，立足深圳面向全国，已在零售领域深耕细作20多年，拥有多家进口优品连锁门店、多家国内外知名品牌供应链源头、拥有政府支持的新能源实体产业。</p>
-                    <p>
-                        “融益行”响应国家“大众创业、万众创新”的号召，配合国家供给侧改革的步伐、结合新型城镇化的创新发展模式、联合全国各地的特色小镇、汽车产业供应链、绿色农产品供应链，发展特色县域经济，打通民生刚需产品与会员之间的绿色通道，为会员与合伙人提供创业创富的渠道，享受全球品质定制生活，构建共赢共富的新型消费生态圈。</p>
+                    <p><strong>1.品牌名称释义</strong></p>
+                    <p><strong>“融”</strong>是：融合，金融</p>
+                    <p><strong>“益”</strong>是：收益、公益</p>
+                    <p><strong>“行”</strong>是：容易、360行(多音字:hang)</p>
+                    <p><strong>“融益行”</strong>是：谐音”容易行”，融合各行各业异业联盟，融益行让消费更放心，让生活更美好！</p>
+                    <p><strong>2.标志LOGO释义</strong></p>
                 </div>
             </div>
+            <!--<div class="right-items">-->
+            <!--<div class="right-title">-->
+            <!--<h4>发展历程</h4>-->
+            <!--<p>你的位置：首页&gt;关于我们&gt;<span class="gsjj">发展历程</span></p>-->
+            <!--</div>-->
+            <!--<div class="show-content">-->
+            <!--<p>“融益行”是深圳市中普理想集团旗下的新型消费共享生态平台，以新零售和新能源为基础依托于互联网大数据运营及全新的F2C2F的模式，致力于消费增值，助农增收，产销结合，生态环保的惠民工程。</p>-->
+            <!--<p>集团积极推进供应链改革创新，立足深圳面向全国，已在零售领域深耕细作20多年，拥有多家进口优品连锁门店、多家国内外知名品牌供应链源头、拥有政府支持的新能源实体产业。</p>-->
+            <!--<p>-->
+            <!--“融益行”响应国家“大众创业、万众创新”的号召，配合国家供给侧改革的步伐、结合新型城镇化的创新发展模式、联合全国各地的特色小镇、汽车产业供应链、绿色农产品供应链，发展特色县域经济，打通民生刚需产品与会员之间的绿色通道，为会员与合伙人提供创业创富的渠道，享受全球品质定制生活，构建共赢共富的新型消费生态圈。</p>-->
+            <!--</div>-->
+            <!--</div>-->
         </div>
     </div>
 </div>

@@ -1,0 +1,82 @@
+.message {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.message .inpbm{
+    width: 180px;
+    height: 30px;
+}
+.message .mes-con{
+    width: 400px;
+    height: 60px;
+}
+.message label{
+    color: #000;
+    font-size: 15px;
+}
+.message .requir{
+    color: #000;
+}
+.disflex{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.codes{
+    width: 100px;
+    height: 30px;
+}
+.sub_btn{
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+.sub_btn button{
+    width: 83px;
+    height: 31px;
+    line-height: 31px;
+    background: #5C5C5C;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.info-list li{
+    position: relative;
+}
+.info-list{
+    list-style: none;
+}
+.info-list li:before{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    content: '';
+    width: 5px;
+    height:5px;
+    border: 1px solid #EBB32E;
+    transform: rotate(-30deg);
+}
+.info-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding-left: 20px;
+    border-bottom: 1px solid #E8E8E8;
+    color: #000000;
+}
+.info-item :hover{
+    color: #EBB32E;
+}
+.info-item .hover{
+    color: #EBB32E;
+}
+.times{
+    color: #666666;
+}
