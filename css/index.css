@@ -1024,16 +1024,22 @@ footer {
     right: 0;
 }
 
-.footer-con .footer-right img {
-    margin-top: 15px;
-    margin-left: 20px;
-}
 
 .footer-con .footer-right .wx {
     display: inline-block;
     width: 80px;
     height: 4px;
     background: #D9B564;
+}
+.footer-con .footer-right .ewm{
+    width: 150px;
+    height: 150px;
+}
+.footer-con .footer-right .ewm_img{
+    width: 100%;
+    background-size: cover;
+    border: none;
+    margin-top: 15px;
 }
 
 .footer-con .footer-right .wx:after {

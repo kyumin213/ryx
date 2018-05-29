@@ -4,16 +4,23 @@
     height: 610px;
     background: #fff;
 }
+.join_container{
+height: auto;
+}
 .about-banner img{
     width: 100%;
     background-size: cover;
+    background: #fff;
 }
 .container .con{
-    position: relative;
+    /*position: relative;*/
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
 }
 .container .con .left{
-    position: absolute;
-    left: 0;
+    /*position: absolute;*/
+    /*left: 0;*/
 }
 .container .con .left .about-item,.container .con .left .contact-item{
     list-style: none;
@@ -150,12 +157,19 @@ border-top: 1px solid #E8E8E8;
 .container .con .right{
     margin-left: 40px;
     border: 1px solid #E8E8E8;
-    position: absolute;
-    left: 220px;
-    top: 0;
-    right: 0;
+    /*position: absolute;*/
+    /*left: 220px;*/
+    /*top: 0;*/
+    /*right: 0;*/
     height: 560px;
     overflow: hidden;
+}
+.container .con .join_right{
+    height: auto;
+    overflow: auto;
+}
+.container .con .con_right{
+    width: 70%;
 }
 .container .con .right .right-items{
     width: auto;
@@ -310,6 +324,7 @@ border-top: 1px solid #E8E8E8;
 }
 .info_con p{
     font-size: 15px;
+    line-height: 28px;
 }
 .join-img{
     width: 100%;
@@ -336,9 +351,8 @@ border-top: 1px solid #E8E8E8;
     /*height: 560px;*/
 /*}*/
 .info_pages{
-    position: absolute;
-    bottom: 30px;
-    left: 40%;
+    text-align: center;
+    margin-top: 150px;
 }
 .info_pages .total{
     display: inline-block;
@@ -346,3 +360,4 @@ border-top: 1px solid #E8E8E8;
     background: #E8E8E8;
     font-size: 14px;
 }
+
